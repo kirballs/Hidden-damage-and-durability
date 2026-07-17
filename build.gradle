@@ -55,6 +55,10 @@ sourceSets.main.resources {
 }
 
 repositories {
+    maven {
+        name = 'MinecraftForge'
+        url = 'https://maven.minecraftforge.net'
+    }
     mavenCentral()
 }
 
